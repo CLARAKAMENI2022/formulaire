@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> FCC: Survey Form</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+   <main id="main" > 
+     <h1 id="title">FreeCode Camp Survey Form</h1>
+     <p id=description>Thank you for taking the time to help us improve the platform</p>
+     <form id="survey form">
+    <label for="name">Name<br/>
+      <input type="name" placeholder="Enter your name" id="name">           </label> <br><br/>
+       <label for="Email"> Email <br/>
+       <input type="Email" placeholder="Enter your Email" id="Email">
+       </label><br><br/>
+       <label for="Age">Age(optional)</br>
+       <input type="Number" placeholder=" Age" id="Number" min="10"  max="100">
+       </label><br><br/>
+       <label for="describe"> 
+         Which option best describe your current role?</br>
+       <select name="choix" id="choix">
+         <option value="" > select current role</option> 
+           <option value="Student">Student</option>
+           <option value="Full time job">Full time job</option>
+           <option value="Full time learner">Full time learner</option>
+           <option value="Prefer not to say">Prefer not to say</option>
+           <option value="Other">other</option>
+     </select></br></br>
+   
+     <label for="Would you recommend free code Camp to your friend?">Would you recommend free code Camp to your friend? <br/><br/>
+    <input type="radio" name="recommend" id="recommend"/>Definitely<br/><br/>
+    <input type="radio" name="recommend" id="recommend"/>May be<br/><br/>
+     <input type="radio" name="recommend" id="recommend"/> Not sure
+    </label>
+  
+     <label for="describe"> 
+         What is your favorite feature of free code camp?</br>
+       <select name="choix" id="choix">
+         <option value="" > select an option</option> 
+           <option value="challenges">challenges</option>
+           <option value="projets">projets</option>
+           <option value="community">community</option>
+           <option value="open Source">open Source</option>
+         </select></br></br>
+     </label>
+       <label for="Would you recommend free code Camp to your friend?">What would you like improve(Check that all apply)? <br/><br/>
+    <input type="checkbox" name="recommend" id="recommend"/>front-end project<br/><br/>
+    <input type="checkbox" name="recommend" id="recommend"/>back-end projects<br/><br/>
+     <input type="checkbox" name="recommend" id="recommend"/>Data Visualization<br/><br/>
+<input type="checkbox" name="recommend" id="recommend"/>Challenge<br/><br/>
+     <input type="checkbox" name="recommend" id="recommend"/> Open source community<br/><br/>
+      <input type="checkbox" name="recommend" id="recommend"/>Wiki<br/><br/>
+     <input type="checkbox" name="recommend" id="recommend"/>Forum<br/><br/>
+      <input type="checkbox" name="recommend" id="recommend"/>Additional Courses<br/><br/>
+    <input type="checkbox" name="recommend" id="recommend"/>Gitter help rooms<br/><br/>
+     <input type="checkbox" name="recommend" id="recommend"/>Videos<br/><br/>     
+    </label>
+<label for="story">Any comment or suggestion?</label> <br/><br/> 
+<textarea name="story" id="story" cols="80" rows="8" placeholder="Enter your Comment here"></textarea> <br><br>
+<button>Submit   </button>
+     </form>
+   </main>
+  </body>
+ </html>
